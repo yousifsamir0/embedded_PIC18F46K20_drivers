@@ -21,7 +21,7 @@ It provides interfaces and functions to interact with various peripherals and fe
 The implementation follows the specifications outlined in the PIC18F46K20 datasheet, ensuring compatibility and optimal performance.
 [PIC18F46K20 datasheet link](https://ww1.microchip.com/downloads/en/devicedoc/40001303h.pdf)
 
-### ECU (Electronic Control Unit) Layers
+### ECU (Electronic Control Unit) Layer
 
 The ECU layers encompass higher-level functionalities and drivers built upon the MCAL module. Each ECU layer is designed to control specific components or subsystems of an embedded system. These layers include:
 
