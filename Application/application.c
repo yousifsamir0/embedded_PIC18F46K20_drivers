@@ -10,11 +10,13 @@
 #include "../MCA_Layer/EEPROM/hal_eeprom.h"
 #include "../MCA_Layer/ADC/hal_adc.h"
 #include "../MCA_Layer/TIMER0/hal_timer0.h"
+#include "../MCA_Layer/USART/hal_usart.h"
 
 void start_init(void);
 void APP_INT0_ISR(void);
 void ADC_callback(void);
 void APP_TIMER0_ISR(void);
+void APP_USART_RX_ISR(uint8_t data,uint8_t bit_9);
 
 uint16_t temp_res_an0;
 uint16_t temp_res_an1;
@@ -82,12 +84,24 @@ timer0_t timer0 = {
 };
 uint16_t timer0_reg;
 
+usart_rx_t usart_rx = {
+  .baudrate=9600,
+  .interrupt_enable=USART_STD_ENABLE,
+  .interrupt_priority = HIGH_PRIORITY,
+  .is_9bit = 0,
+  .rx_interrupt_handler = APP_USART_RX_ISR,
+};
+usart_tx_t usart_tx = {
+  .baudrate=9600,
+  .is_9bit = 0,
+};
 int main() {
     
     
     start_init();   
+//    usart_tx_write_byte_blocking('a');
+    
     while(1){
-//        timer0_read_register(&timer0_reg);
         
 
     }
@@ -100,6 +114,10 @@ void start_init(void){
     adc_init(&adc_config1);
     adc_init(&adc_config2);
     adc_init(&adc_config3);
+    usart_tx_init(&usart_tx);
+    usart_rx_init(&usart_rx);
+    
+    
     for (uint8_t i=0;i<4;++i)
     {
         ecu_led_initialize((leds_array[i]));
@@ -115,4 +133,16 @@ void ADC_callback (void){
 void APP_TIMER0_ISR(void){
 //    timer0_read_register(&timer0_reg);
     timer0_reg++;
+}
+void APP_USART_RX_ISR(uint8_t data,uint8_t bit_9){
+    if (data == 'a'){
+        ecu_led_turn_on(&led_1);
+        usart_tx_write_byte_blocking('c');
+        __delay_ms(1000);
+    }
+    if (data == 'b'){
+        ecu_led_turn_off(&led_1);
+        usart_tx_write_byte_blocking('d');
+        __delay_ms(1000);
+    }
 }
