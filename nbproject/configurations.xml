@@ -37,6 +37,9 @@
         <logicalFolder name="TIMER3" displayName="TIMER3" projectFiles="true">
           <itemPath>MCA_Layer/TIMER3/hal_timer3.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="USART" displayName="USART" projectFiles="true">
+          <itemPath>MCA_Layer/USART/hal_usart.h</itemPath>
+        </logicalFolder>
         <itemPath>MCA_Layer/compiler.h</itemPath>
         <itemPath>MCA_Layer/device_config.h</itemPath>
         <itemPath>MCA_Layer/std_libraries.h</itemPath>
@@ -84,10 +87,13 @@
         <logicalFolder name="TIMER2" displayName="TIMER2" projectFiles="true">
           <itemPath>MCA_Layer/TIMER2/hal_timer2.c</itemPath>
         </logicalFolder>
+        <logicalFolder name="TIMER3" displayName="TIMER3" projectFiles="true">
+          <itemPath>MCA_Layer/TIMER3/hal_timer3.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="USART" displayName="USART" projectFiles="true">
+          <itemPath>MCA_Layer/USART/hal_usart.c</itemPath>
+        </logicalFolder>
         <itemPath>MCA_Layer/device_config.c</itemPath>
-      </logicalFolder>
-      <logicalFolder name="TIMER3" displayName="TIMER3" projectFiles="true">
-        <itemPath>MCA_Layer/TIMER3/hal_timer3.c</itemPath>
       </logicalFolder>
       <itemPath>Application/application.c</itemPath>
     </logicalFolder>

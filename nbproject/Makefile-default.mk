@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=ECU_Layer/LED/ecu_led.c MCA_Layer/GPIO/hal_gpio.c MCA_Layer/device_config.c Application/application.c MCA_Layer/Interrupt/mcal_external_interrupt.c MCA_Layer/Interrupt/mcal_internal_interrupt.c MCA_Layer/Interrupt/mcal_interrupt_manager.c MCA_Layer/EEPROM/hal_eeprom.c MCA_Layer/ADC/hal_adc.c MCA_Layer/TIMER0/hal_timer0.c MCA_Layer/TIMER1/hal_timer1.c MCA_Layer/TIMER2/hal_timer2.c MCA_Layer/TIMER3/hal_timer3.c
+SOURCEFILES_QUOTED_IF_SPACED=ECU_Layer/LED/ecu_led.c MCA_Layer/ADC/hal_adc.c MCA_Layer/EEPROM/hal_eeprom.c MCA_Layer/GPIO/hal_gpio.c MCA_Layer/Interrupt/mcal_external_interrupt.c MCA_Layer/Interrupt/mcal_internal_interrupt.c MCA_Layer/Interrupt/mcal_interrupt_manager.c MCA_Layer/TIMER0/hal_timer0.c MCA_Layer/TIMER1/hal_timer1.c MCA_Layer/TIMER2/hal_timer2.c MCA_Layer/device_config.c Application/application.c MCA_Layer/TIMER3/hal_timer3.c MCA_Layer/USART/hal_usart.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1 ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1 ${OBJECTDIR}/MCA_Layer/device_config.p1 ${OBJECTDIR}/Application/application.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_external_interrupt.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_internal_interrupt.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1 ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 ${OBJECTDIR}/MCA_Layer/TIMER0/hal_timer0.p1 ${OBJECTDIR}/MCA_Layer/TIMER1/hal_timer1.p1 ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1 ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1
-POSSIBLE_DEPFILES=${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1.d ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1.d ${OBJECTDIR}/MCA_Layer/device_config.p1.d ${OBJECTDIR}/Application/application.p1.d ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_external_interrupt.p1.d ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_internal_interrupt.p1.d ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1.d ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d ${OBJECTDIR}/MCA_Layer/TIMER0/hal_timer0.p1.d ${OBJECTDIR}/MCA_Layer/TIMER1/hal_timer1.p1.d ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1.d ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1 ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_external_interrupt.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_internal_interrupt.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1 ${OBJECTDIR}/MCA_Layer/TIMER0/hal_timer0.p1 ${OBJECTDIR}/MCA_Layer/TIMER1/hal_timer1.p1 ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1 ${OBJECTDIR}/MCA_Layer/device_config.p1 ${OBJECTDIR}/Application/application.p1 ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1 ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1
+POSSIBLE_DEPFILES=${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1.d ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1.d ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_external_interrupt.p1.d ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_internal_interrupt.p1.d ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1.d ${OBJECTDIR}/MCA_Layer/TIMER0/hal_timer0.p1.d ${OBJECTDIR}/MCA_Layer/TIMER1/hal_timer1.p1.d ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1.d ${OBJECTDIR}/MCA_Layer/device_config.p1.d ${OBJECTDIR}/Application/application.p1.d ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1.d ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1 ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1 ${OBJECTDIR}/MCA_Layer/device_config.p1 ${OBJECTDIR}/Application/application.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_external_interrupt.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_internal_interrupt.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1 ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 ${OBJECTDIR}/MCA_Layer/TIMER0/hal_timer0.p1 ${OBJECTDIR}/MCA_Layer/TIMER1/hal_timer1.p1 ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1 ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1
+OBJECTFILES=${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1 ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_external_interrupt.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_internal_interrupt.p1 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1 ${OBJECTDIR}/MCA_Layer/TIMER0/hal_timer0.p1 ${OBJECTDIR}/MCA_Layer/TIMER1/hal_timer1.p1 ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1 ${OBJECTDIR}/MCA_Layer/device_config.p1 ${OBJECTDIR}/Application/application.p1 ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1 ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1
 
 # Source Files
-SOURCEFILES=ECU_Layer/LED/ecu_led.c MCA_Layer/GPIO/hal_gpio.c MCA_Layer/device_config.c Application/application.c MCA_Layer/Interrupt/mcal_external_interrupt.c MCA_Layer/Interrupt/mcal_internal_interrupt.c MCA_Layer/Interrupt/mcal_interrupt_manager.c MCA_Layer/EEPROM/hal_eeprom.c MCA_Layer/ADC/hal_adc.c MCA_Layer/TIMER0/hal_timer0.c MCA_Layer/TIMER1/hal_timer1.c MCA_Layer/TIMER2/hal_timer2.c MCA_Layer/TIMER3/hal_timer3.c
+SOURCEFILES=ECU_Layer/LED/ecu_led.c MCA_Layer/ADC/hal_adc.c MCA_Layer/EEPROM/hal_eeprom.c MCA_Layer/GPIO/hal_gpio.c MCA_Layer/Interrupt/mcal_external_interrupt.c MCA_Layer/Interrupt/mcal_internal_interrupt.c MCA_Layer/Interrupt/mcal_interrupt_manager.c MCA_Layer/TIMER0/hal_timer0.c MCA_Layer/TIMER1/hal_timer1.c MCA_Layer/TIMER2/hal_timer2.c MCA_Layer/device_config.c Application/application.c MCA_Layer/TIMER3/hal_timer3.c MCA_Layer/USART/hal_usart.c
 
 
 
@@ -96,6 +96,22 @@ ${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1: ECU_Layer/LED/ecu_led.c  nbproject/Makefi
 	@-${MV} ${OBJECTDIR}/ECU_Layer/LED/ecu_led.d ${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
+${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1: MCA_Layer/ADC/hal_adc.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/MCA_Layer/ADC" 
+	@${RM} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d 
+	@${RM} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 MCA_Layer/ADC/hal_adc.c 
+	@-${MV} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.d ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1: MCA_Layer/EEPROM/hal_eeprom.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/MCA_Layer/EEPROM" 
+	@${RM} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d 
+	@${RM} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 MCA_Layer/EEPROM/hal_eeprom.c 
+	@-${MV} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.d ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
 ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1: MCA_Layer/GPIO/hal_gpio.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/MCA_Layer/GPIO" 
 	@${RM} ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1.d 
@@ -103,22 +119,6 @@ ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1: MCA_Layer/GPIO/hal_gpio.c  nbproject/Ma
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1 MCA_Layer/GPIO/hal_gpio.c 
 	@-${MV} ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.d ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/MCA_Layer/device_config.p1: MCA_Layer/device_config.c  nbproject/Makefile-${CND_CONF}.mk 
-	@${MKDIR} "${OBJECTDIR}/MCA_Layer" 
-	@${RM} ${OBJECTDIR}/MCA_Layer/device_config.p1.d 
-	@${RM} ${OBJECTDIR}/MCA_Layer/device_config.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/device_config.p1 MCA_Layer/device_config.c 
-	@-${MV} ${OBJECTDIR}/MCA_Layer/device_config.d ${OBJECTDIR}/MCA_Layer/device_config.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/device_config.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/Application/application.p1: Application/application.c  nbproject/Makefile-${CND_CONF}.mk 
-	@${MKDIR} "${OBJECTDIR}/Application" 
-	@${RM} ${OBJECTDIR}/Application/application.p1.d 
-	@${RM} ${OBJECTDIR}/Application/application.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/Application/application.p1 Application/application.c 
-	@-${MV} ${OBJECTDIR}/Application/application.d ${OBJECTDIR}/Application/application.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/Application/application.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_external_interrupt.p1: MCA_Layer/Interrupt/mcal_external_interrupt.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/MCA_Layer/Interrupt" 
@@ -144,22 +144,6 @@ ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1: MCA_Layer/Interrupt/
 	@-${MV} ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.d ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1: MCA_Layer/EEPROM/hal_eeprom.c  nbproject/Makefile-${CND_CONF}.mk 
-	@${MKDIR} "${OBJECTDIR}/MCA_Layer/EEPROM" 
-	@${RM} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d 
-	@${RM} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 MCA_Layer/EEPROM/hal_eeprom.c 
-	@-${MV} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.d ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1: MCA_Layer/ADC/hal_adc.c  nbproject/Makefile-${CND_CONF}.mk 
-	@${MKDIR} "${OBJECTDIR}/MCA_Layer/ADC" 
-	@${RM} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d 
-	@${RM} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 MCA_Layer/ADC/hal_adc.c 
-	@-${MV} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.d ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
 ${OBJECTDIR}/MCA_Layer/TIMER0/hal_timer0.p1: MCA_Layer/TIMER0/hal_timer0.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/MCA_Layer/TIMER0" 
 	@${RM} ${OBJECTDIR}/MCA_Layer/TIMER0/hal_timer0.p1.d 
@@ -184,6 +168,22 @@ ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1: MCA_Layer/TIMER2/hal_timer2.c  nbpr
 	@-${MV} ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.d ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
+${OBJECTDIR}/MCA_Layer/device_config.p1: MCA_Layer/device_config.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/MCA_Layer" 
+	@${RM} ${OBJECTDIR}/MCA_Layer/device_config.p1.d 
+	@${RM} ${OBJECTDIR}/MCA_Layer/device_config.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/device_config.p1 MCA_Layer/device_config.c 
+	@-${MV} ${OBJECTDIR}/MCA_Layer/device_config.d ${OBJECTDIR}/MCA_Layer/device_config.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/device_config.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/Application/application.p1: Application/application.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/Application" 
+	@${RM} ${OBJECTDIR}/Application/application.p1.d 
+	@${RM} ${OBJECTDIR}/Application/application.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/Application/application.p1 Application/application.c 
+	@-${MV} ${OBJECTDIR}/Application/application.d ${OBJECTDIR}/Application/application.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/Application/application.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
 ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1: MCA_Layer/TIMER3/hal_timer3.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/MCA_Layer/TIMER3" 
 	@${RM} ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1.d 
@@ -191,6 +191,14 @@ ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1: MCA_Layer/TIMER3/hal_timer3.c  nbpr
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1 MCA_Layer/TIMER3/hal_timer3.c 
 	@-${MV} ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.d ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1: MCA_Layer/USART/hal_usart.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/MCA_Layer/USART" 
+	@${RM} ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1.d 
+	@${RM} ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1 MCA_Layer/USART/hal_usart.c 
+	@-${MV} ${OBJECTDIR}/MCA_Layer/USART/hal_usart.d ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 else
 ${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1: ECU_Layer/LED/ecu_led.c  nbproject/Makefile-${CND_CONF}.mk 
@@ -201,6 +209,22 @@ ${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1: ECU_Layer/LED/ecu_led.c  nbproject/Makefi
 	@-${MV} ${OBJECTDIR}/ECU_Layer/LED/ecu_led.d ${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/ECU_Layer/LED/ecu_led.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
+${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1: MCA_Layer/ADC/hal_adc.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/MCA_Layer/ADC" 
+	@${RM} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d 
+	@${RM} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 MCA_Layer/ADC/hal_adc.c 
+	@-${MV} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.d ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1: MCA_Layer/EEPROM/hal_eeprom.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/MCA_Layer/EEPROM" 
+	@${RM} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d 
+	@${RM} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 MCA_Layer/EEPROM/hal_eeprom.c 
+	@-${MV} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.d ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
 ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1: MCA_Layer/GPIO/hal_gpio.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/MCA_Layer/GPIO" 
 	@${RM} ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1.d 
@@ -208,22 +232,6 @@ ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1: MCA_Layer/GPIO/hal_gpio.c  nbproject/Ma
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1 MCA_Layer/GPIO/hal_gpio.c 
 	@-${MV} ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.d ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/GPIO/hal_gpio.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/MCA_Layer/device_config.p1: MCA_Layer/device_config.c  nbproject/Makefile-${CND_CONF}.mk 
-	@${MKDIR} "${OBJECTDIR}/MCA_Layer" 
-	@${RM} ${OBJECTDIR}/MCA_Layer/device_config.p1.d 
-	@${RM} ${OBJECTDIR}/MCA_Layer/device_config.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/device_config.p1 MCA_Layer/device_config.c 
-	@-${MV} ${OBJECTDIR}/MCA_Layer/device_config.d ${OBJECTDIR}/MCA_Layer/device_config.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/device_config.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/Application/application.p1: Application/application.c  nbproject/Makefile-${CND_CONF}.mk 
-	@${MKDIR} "${OBJECTDIR}/Application" 
-	@${RM} ${OBJECTDIR}/Application/application.p1.d 
-	@${RM} ${OBJECTDIR}/Application/application.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/Application/application.p1 Application/application.c 
-	@-${MV} ${OBJECTDIR}/Application/application.d ${OBJECTDIR}/Application/application.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/Application/application.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_external_interrupt.p1: MCA_Layer/Interrupt/mcal_external_interrupt.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/MCA_Layer/Interrupt" 
@@ -249,22 +257,6 @@ ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1: MCA_Layer/Interrupt/
 	@-${MV} ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.d ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/Interrupt/mcal_interrupt_manager.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1: MCA_Layer/EEPROM/hal_eeprom.c  nbproject/Makefile-${CND_CONF}.mk 
-	@${MKDIR} "${OBJECTDIR}/MCA_Layer/EEPROM" 
-	@${RM} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d 
-	@${RM} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1 MCA_Layer/EEPROM/hal_eeprom.c 
-	@-${MV} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.d ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/EEPROM/hal_eeprom.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1: MCA_Layer/ADC/hal_adc.c  nbproject/Makefile-${CND_CONF}.mk 
-	@${MKDIR} "${OBJECTDIR}/MCA_Layer/ADC" 
-	@${RM} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d 
-	@${RM} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1 MCA_Layer/ADC/hal_adc.c 
-	@-${MV} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.d ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/ADC/hal_adc.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
 ${OBJECTDIR}/MCA_Layer/TIMER0/hal_timer0.p1: MCA_Layer/TIMER0/hal_timer0.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/MCA_Layer/TIMER0" 
 	@${RM} ${OBJECTDIR}/MCA_Layer/TIMER0/hal_timer0.p1.d 
@@ -289,6 +281,22 @@ ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1: MCA_Layer/TIMER2/hal_timer2.c  nbpr
 	@-${MV} ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.d ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/TIMER2/hal_timer2.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
+${OBJECTDIR}/MCA_Layer/device_config.p1: MCA_Layer/device_config.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/MCA_Layer" 
+	@${RM} ${OBJECTDIR}/MCA_Layer/device_config.p1.d 
+	@${RM} ${OBJECTDIR}/MCA_Layer/device_config.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/device_config.p1 MCA_Layer/device_config.c 
+	@-${MV} ${OBJECTDIR}/MCA_Layer/device_config.d ${OBJECTDIR}/MCA_Layer/device_config.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/device_config.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/Application/application.p1: Application/application.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/Application" 
+	@${RM} ${OBJECTDIR}/Application/application.p1.d 
+	@${RM} ${OBJECTDIR}/Application/application.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/Application/application.p1 Application/application.c 
+	@-${MV} ${OBJECTDIR}/Application/application.d ${OBJECTDIR}/Application/application.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/Application/application.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
 ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1: MCA_Layer/TIMER3/hal_timer3.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/MCA_Layer/TIMER3" 
 	@${RM} ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1.d 
@@ -296,6 +304,14 @@ ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1: MCA_Layer/TIMER3/hal_timer3.c  nbpr
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1 MCA_Layer/TIMER3/hal_timer3.c 
 	@-${MV} ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.d ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/TIMER3/hal_timer3.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1: MCA_Layer/USART/hal_usart.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/MCA_Layer/USART" 
+	@${RM} ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1.d 
+	@${RM} ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1 MCA_Layer/USART/hal_usart.c 
+	@-${MV} ${OBJECTDIR}/MCA_Layer/USART/hal_usart.d ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/MCA_Layer/USART/hal_usart.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 endif
 

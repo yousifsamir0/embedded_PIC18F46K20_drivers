@@ -40,6 +40,9 @@ void __interrupt() InterruptManager(void){
     else if ((TIMER3_INTERRUPT_IS_ENABLE) && (TIMER3_INTERRUPT_IS_OCCUREED) ){
         TIMER3_ISR();
     }
+    else if ((USART_RX_INTERRUPT_IS_ENABLE) && (USART_RX_INTERRUPT_IS_OCCUREED) ){
+        USART_RX_ISR();
+    }
     else{ /*nothing*/ }
 
 }

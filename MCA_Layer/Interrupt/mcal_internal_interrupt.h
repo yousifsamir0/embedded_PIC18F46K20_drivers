@@ -26,6 +26,9 @@
 #define TIMER3_INTERRUPT_IS_OCCUREED           (PIR2bits.TMR3IF==STD_ONE)
 #define TIMER3_INTERRUPT_IS_ENABLE             (PIE2bits.TMR3IE==STD_ONE)
 
+#define USART_RX_INTERRUPT_IS_OCCUREED           (PIR1bits.RCIF==STD_ONE)
+#define USART_RX_INTERRUPT_IS_ENABLE             (PIE1bits.RCIE==STD_ONE)
+
 /* section: macro function declarations */
 #define ADC_INTERRUPT_ENABLE()              (PIE1bits.ADIE=STD_ONE)
 #define ADC_INTERRUPT_DISABLE()             (PIE1bits.ADIE=STD_ZERO)
@@ -47,6 +50,10 @@
 #define TIMER3_INTERRUPT_DISABLE()             (PIE2bits.TMR3IE=STD_ZERO)
 #define TIMER3_INTERRUPT_CLEAR_FLAG()          (PIR2bits.TMR3IF=STD_ZERO)
 
+#define USART_RX_INTERRUPT_ENABLE()              (PIE1bits.RCIE = STD_ONE)
+#define USART_RX_INTERRUPT_DISABLE()             (PIE1bits.RCIE = STD_ZERO)
+
+
 #if (INTERRUPT_PRIORITY_LEVELS)
     #define ADC_HIGH_PRIOTIRY_SET()            (IPR1bits.ADIP=STD_ONE)
     #define ADC_LOW_PRIOTIRY_SET()             (IPR1bits.ADIP=STD_ZERO)  
@@ -62,6 +69,11 @@
 
     #define TIMER3_HIGH_PRIOTIRY_SET()            (IPR2bits.TMR3IP=STD_ONE)
     #define TIMER3_LOW_PRIOTIRY_SET()             (IPR2bits.TMR3IP=STD_ZERO)
+
+    #define USART_RX_HIGH_PRIOTIRY_SET()            (IPR1bits.RCIP=STD_ONE)
+    #define USART_RX_LOW_PRIOTIRY_SET()             (IPR1bits.RCIP=STD_ZERO)
+
+
 
 #endif
 /* section: data types declaration*/
